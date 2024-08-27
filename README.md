@@ -1,4 +1,4 @@
-# Binary Trees in Python
+# Graphs in Python
 
 Author: Daniel Durant
 
