@@ -1,7 +1,22 @@
 About:
+    This program is designed to find the shortest route from one point to another using Dijkstra’s algorithm. It allows me to visualize and 
+  understand how programming can efficiently map points and distances between them in a data structure. The program uses weights associated 
+  with each node to compare them with each of the node’s neighbors, finding the shortest route to its goal.
 
-Time Complexity:
+Time & Space Complexity:
+  O(n log n) heap sort has a time complexity of O(n log n) in the best, average, and worst cases. This is also implemented in Dijkstra’s algorithm.
 
+    Dijkstra’s algorithm is used to find the shortest path from one node to another. It works by examining each node’s neighbors, looking for the 
+  smallest value (distance), and comparing that distance with all other neighbors to determine the shortest path. The algorithm stores these 
+  values in a tuple and processes them one at a time until the shortest route is found and returned.
+
+    This algorithm is very useful for navigation in maps or providing information within data structures, such as suggesting friends, songs, 
+  or even what video to watch next on social media.
+
+Imports:
+  -heapq 
+  (This is used for the  relationship between the index for a node and the indexes for its children slightly less
+  obvious, but is more suitable since Python uses 0-based indexing. heappop() method returns the smallest item, not the largest.)
 
 Questions:
   Solving Shortest Path Problem with Dijkstra's Algorithm
